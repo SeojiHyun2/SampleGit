@@ -19,7 +19,8 @@ public class TestServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-		System.out.println("TestSerlvet");
+		System.out.println("TestSerlvet.doGet");
+		System.out.println("Hello1");
 	}
 
 	/**
